@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: darkgray;
+}
+
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: white;
+    font-size: 1.3em;
+}
+
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0.8em 0;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    font-size: 1.4em;
+}
+
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 200px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    top: 1.5em;
+}
+
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 1.15em;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    opacity: 0.7;
+}
+
+.content {
+    color: black;
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+
+.email {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
